@@ -56,6 +56,9 @@ Usefull links:
 <h2>Usefull commands</h2>
 <p class="code">
 Network Connectivity
+<pre>
+$ netstat -tlpn
+</pre>
 <pre>	
 $ timeout 1 bash -c "&lt;/dev/tcp/192.168.49.2/8443" &amp;&amp; echo Connection successful. || echo Connection failed.
 </pre>
@@ -65,7 +68,7 @@ $ echo -n "your_(encoded_)string" | base64 (--decode)
 </pre>
 Generate Certificate with SAN
 <pre>
-	$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout privkey.key -out publickey.crt -subj "/CN=hostname.url" -addext "subjectyAltName=DNS:hostname.url,DNS:www.hostname.url,IP:127.0.0.1"
+$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout privkey.key -out publickey.crt -subj "/CN=hostname.url" -addext "subjectyAltName=DNS:hostname.url,DNS:www.hostname.url,IP:127.0.0.1"
 </pre>
  </p>	
 </body>
