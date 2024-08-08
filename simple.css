@@ -481,6 +481,8 @@ samp {
   font-size: 1.075rem;
   font-family: var(--mono-font);
   color: var(--code);
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 kbd {

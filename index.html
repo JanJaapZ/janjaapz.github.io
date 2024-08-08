@@ -64,19 +64,19 @@
 	
 	Network Connectivity
 	<pre><code>
-		$ netstat -tlpn
-		<br />
-		$ timeout 1 bash -c "&lt;/dev/tcp/192.168.49.2/8443" &amp;&amp; echo Connection successful. || echo Connection failed.
+$ netstat -tlpn
+<br />
+$ timeout 1 bash -c "&lt;/dev/tcp/192.168.49.2/8443" &amp;&amp; echo Connection successful. || echo Connection failed.
 	</pre></code>
 	
 	Encoding
 	<pre><code>
-		$ echo -n "your_(encoded_)string" | base64 (--decode)
+$ echo -n "your_(encoded_)string" | base64 (--decode)
 	</pre></code>
 	
 	Generate Certificate with SAN
-		<pre><code>
-		$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout privkey.key -out publickey.crt -subj "/CN=hostname.url" -addext "subjectyAltName=DNS:hostname.url,DNS:www.hostname.url,IP:127.0.0.1"
+	<pre><code>
+$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout privkey.key -out publickey.crt -subj "/CN=hostname.url" -addext "subjectyAltName=DNS:hostname.url,DNS:www.hostname.url,IP:127.0.0.1"
 	</pre></code>
 
 </body>
