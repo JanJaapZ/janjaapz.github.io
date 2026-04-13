@@ -1,42 +1,5 @@
 # Marathon Trainingsschema — Sub-4 uur in 1 jaar
 
-## Jouw profiel
-| Factor | Waarde |
-|---|---|
-| Doel | Marathon sub-4:00 uur |
-| Tijdshorizon | 1 jaar |
-| Huidig wekelijks volume | <20 km (3x per week) |
-| Langste run ooit | 15 km (2 weken geleden) |
-| VO2 max (Garmin) | 48 |
-| Max hartslag | 204 bpm |
-| Blessures | Geen |
-| Beschikbare tijd | 5–8 uur per week |
-
----
-
-## Hartslagzones (Garmin, gebaseerd op HRmax 204)
-| Zone | bpm | Omschrijving |
-|---|---|---|
-| Zone 1 | 96–114 | Herstel |
-| **Zone 2** | **115–142** | **Aerobe basis — primaire trainingszone** |
-| Zone 3 | 143–163 | Tempo / drempelzone |
-| Zone 4 | 164–183 | Hard/interval |
-| Zone 5 | 184–204 | Maximale inspanning |
-
-> ⚠️ **Zone 2 is de sleutel.** Als je hartslag boven 142 bpm komt: tempo verlagen of kort wandelen. Dit voelt langzaam — dat is correct.
-
----
-
-## Waarom je nu niet meer verbetert (plateauanalyse)
-Je loopt waarschijnlijk in de **"grijze zone"**: te snel voor echt herstel, te langzaam voor een echte trainingsprikkel. Het gevolg is chronische vermoeidheid zonder adaptatie.
-
-**Oplossing: polarisatie**
-- ~80% van je trainingstijd in zone 2 (laag en aeroob)
-- ~20% in zone 4–5 (intervallen — pas na fase 1 toevoegen)
-- Zone 3 zo veel mogelijk vermijden in fase 1
-
----
-
 ## Jaarplanning (4 fases)
 | Fase | Periode | Focus | Doel volume |
 |---|---|---|---|
